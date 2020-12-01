@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aid-Is-On-The-Way</string>
+    <string name="mapa">Mapa de Portugal</string>
+    <string name="norte">Norte</string>
+    <string name="centro">Centro</string>
+    <string name="sul">sul</string>
+    <string name="organNorteGAF">GAF</string>
+    <string name="organNorteAABCJ">AABCJ</string>
+    <string name="apavCoim">APAV-Coimbra</string>
+    <string name="apavSant">APAV-Santarém</string>
+    <string name="apavLis">APAV-Lisboa</string>
+    <string name="organCentroBully">No Bully Portugal</string>
+    <string name="orgnaNorteSegura">SeguraNet</string>
+    <string name="organSul">AS Vida</string>
+    <string name="infoLocalName">Tipos de Cibercrime</string>
+</resources>

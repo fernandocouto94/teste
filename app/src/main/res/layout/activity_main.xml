@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="-4dp">
+
+    </LinearLayout>-->
+
+
+    <!--android:onClick="onClick"
+        android:clickable="true" -->
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.399"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton"
+
+        android:onClick="AABCJonClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/txtView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/txtView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCentro"
+        app:layout_constraintVertical_bias="0.401"
+
+        android:onClick="GAFonClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton"
+
+        android:onClick="NBonClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/txtview21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        app:layout_constraintBottom_toTopOf="@+id/txtview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView1"
+        app:layout_constraintVertical_bias="0.621"
+
+        android:onClick="APAVonClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/txtview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        app:layout_constraintBottom_toTopOf="@+id/txtview31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtview2"
+        app:layout_constraintVertical_bias="1.0"
+
+        android:onClick="ASVonClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/txtview31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewSant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        app:layout_constraintBottom_toTopOf="@+id/txtview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.399"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtview21"
+        app:layout_constraintVertical_bias="0.615"
+
+        android:onClick="APAVonClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/textViewLis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        app:layout_constraintBottom_toTopOf="@+id/txtview3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtview2"
+        app:layout_constraintVertical_bias="0.234"
+
+        android:onClick="APAVonClick"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="424dp"
+        android:layout_height="542dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.5"
+        android:background="@color/colorPrimary"
+        android:contentDescription="@string/mapa"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/mapaport"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNorte"
+        tools:layout_editor_absoluteX="-7dp" />
+
+    <Button
+        android:id="@+id/textViewNorte"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="Norte"
+        android:textSize="32dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textViewCentro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Centro"
+        android:textSize="32dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNorte"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textViewSul"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:text="Sul"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewCentro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Botão de teste para os tipos de crimes-->
+    <Button
+        android:id="@+id/buttonteste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:onClick="infoOnClick"
+        android:text="Open info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
