@@ -3,9 +3,7 @@ package com.example.projetogrupo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.text.util.Linkify;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -36,12 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     txtView1.setText(R.string.organNorteAABCJ);
                     txtView11.setText(R.string.organNorteGAF);
-
-                    txtView2.setText(null);
-                    txtView21.setText(null);
-                    txtView22.setText(null);
-                    txtView23.setText(null);
-                    txtView3.setText(null);
                 }
             });
         CentroButton.setOnClickListener(
@@ -51,23 +43,12 @@ public class MainActivity extends AppCompatActivity {
                         txtView21.setText(R.string.apavCoim);
                         txtView22.setText(R.string.apavSant);
                         txtView23.setText(R.string.apavLis);
-
-                        txtView1.setText(null);
-                        txtView11.setText(null);
-                        txtView3.setText(null);
                     }
                 });
         SulButton.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View view) {
                         txtView3.setText(R.string.organSul);
-
-                        txtView2.setText(null);
-                        txtView21.setText(null);
-                        txtView22.setText(null);
-                        txtView23.setText(null);
-                        txtView1.setText(null);
-                        txtView11.setText(null);
                     }
                 });
 
@@ -76,35 +57,4 @@ public class MainActivity extends AppCompatActivity {
         Intent oIntent = new Intent(this, infoLocal.class);
         startActivity(oIntent);
     }
-
-    public void AABCJonClick(View v) {
-        Uri uri = Uri.parse("https://m.facebook.com/AABcCJ/");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    public void GAFonClick(View v) {
-        Uri uri = Uri.parse("https://www.gaf.pt/pt/recursos/violencia/bullying");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    public void NBonClick(View v) {
-        Uri uri = Uri.parse("https://www.nobully.pt/");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    public void APAVonClick(View v) {
-        Uri uri = Uri.parse("https://apav.pt/apav_v3/index.php/pt/");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    public void ASVonClick(View v) {
-        Uri uri = Uri.parse("https://www.sementesdevida.pt/");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
 }

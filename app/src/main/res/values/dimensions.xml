@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_buttons">32dp</dimen>
+    <dimen name="big_header">24dp</dimen>
+    <dimen name="headers">20dp</dimen>
+    <dimen name="headers1">18dp</dimen>
+</resources>

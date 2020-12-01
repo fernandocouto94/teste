@@ -1,4 +1,5 @@
 <resources>
+    <!--Strings da activity_main-->
     <string name="app_name">Aid-Is-On-The-Way</string>
     <string name="mapa">Mapa de Portugal</string>
     <string name="norte">Norte</string>
@@ -11,6 +12,25 @@
     <string name="apavLis">APAV-Lisboa</string>
     <string name="organCentroBully">No Bully Portugal</string>
     <string name="orgnaNorteSegura">SeguraNet</string>
-    <string name="organSul">AS Vida</string>
+    <string name="organSul">Em falta</string>
+
+    <!---Strings da infoLocal-->
+    <string name="cibercrime">Informação sobre cibercrime</string>
     <string name="infoLocalName">Tipos de Cibercrime</string>
+    <string name="Dirigido">Crimes dirigidos a redes e dispositivos</string>
+    <string name="Virus">Virus</string>
+    <string name="VirusDesc">código/programa maligno que modifica a forma como o computador funciona. Este software é desenhado para ser transmissível entre dispositivos.\n</string>
+    <string name="Malware">Malware</string>
+    <string name="MalwareDesc">qualquer software que disfarça se como sendo um programa vulgar, no entanto, tem uma intenção maliciosa no dispositivo.\n</string>
+    <string name="DDoS">Attacks</string>
+    <string name="DDoS_descr">tornam os serviços online indisponíveis e mandam a rede abaixo. Os dispositivos na rede são infetados com malware.\n</string>
+    <string name="def">O que é?</string>
+    <string name="Def_cibercrime">Cybercrime é um crime onde um computador é o objeto de crime, ou então é usado como um meio para cometer uma ofensa. Um cybercrime pode usar um dispositivo para aceder a informação privada, confidencial, de negócio e/ou governamental.\n</string>
+    <string name="categ">Categorias</string>
+    <string name="Prop">Propiedade</string>
+    <string name="Prop_conteudo">roubo de bens alheios através de processos ilegais.\n</string>
+    <string name="ind">Individual</string>
+    <string name="ind_conteudo">crime dirigido a uma entidade em particular.\n</string>
+    <string name="govern">Governamental</string>
+    <string name="govern_conteudo">também conhecido como cyberterrorism, é um crime dirigido às entidades públicas ou privadas do governo.\n</string>
 </resources>
